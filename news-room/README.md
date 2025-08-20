@@ -17,7 +17,8 @@
 
 - **HTML5** – Structure of the website  
 - **CSS3** – Styling and layout  
-- **JavaScript (ES6)** – Functionality and interactivity  
+- **JavaScript (ES6)** – Functionality and interactivity
+- **React -- Component-based UI library for building the news interface (Navbar, Newsboard, Newsitem)
 
 ---
 
