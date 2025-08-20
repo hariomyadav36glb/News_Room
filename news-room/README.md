@@ -1,12 +1,53 @@
-# React + Vite
+# 📰 News Room
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**News Room** is a simple and interactive news application where users can explore the **latest news** and browse by categories such as **Technology, Business, Entertainment, Health, Science, and Sports**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🆕 Latest news feed  
+- 🗂️ Category-based filtering (Technology, Business, Entertainment, Health, Science, Sports)  
+- 📱 Responsive design for mobile and desktop  
+- 🎨 Clean and minimal UI  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5** – Structure of the website  
+- **CSS3** – Styling and layout  
+- **JavaScript (ES6)** – Functionality and interactivity  
+
+---
+
+## 📂 Project Structure
+
+news-room/
+├── public/                 # Public assets
+│
+├── src/                    # Main source code
+│   ├── assets/             # Images and static files
+│   │   └── news-img.jpg
+│   │
+│   ├── components/         # Reusable components
+│   │   ├── Navbar.jsx
+│   │   ├── Newsboard.jsx
+│   │   └── Newsitem.jsx
+│   │
+│   ├── App.css             # Global styles
+│   ├── App.jsx             # Root component
+│   └── main.jsx            # Entry point
+│
+├── dist/                   # Production build output
+│   ├── assets/
+│   └── index.html
+│
+├── .env                    # Environment variables (API key etc.)
+├── .gitignore              # Ignored files/folders for Git
+├── eslint.config.js        # ESLint configuration
+├── index.html              # HTML entry template
+├── package.json            # Project metadata and dependencies
+├── package-lock.json       # Dependency lock file
+├── vite.config.js          # Vite bundler configuration
+└── README.md               # Documentation
